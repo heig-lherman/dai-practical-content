@@ -31,9 +31,9 @@
             <list>
               <option value="clean" />
               <option value="package" />
+              <option value="-am" />
               <option value="-pl" />
               <option value="pw-hello-world" />
-              <option value="-am" />
             </list>
           </option>
           <option name="pomFileName" />
