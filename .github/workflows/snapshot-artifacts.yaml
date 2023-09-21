@@ -1,4 +1,4 @@
-name: Java CI
+name: Build and Publish Snapshot Artifacts
 
 on:
   push:

@@ -1,4 +1,4 @@
-name: Java CI
+name: Checks on Pull Requests
 
 on:
   pull_request: {}
