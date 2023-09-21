@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Package JAR" type="MavenRunConfiguration" factoryName="Maven">
+  <configuration default="false" name="Package hello-world" type="MavenRunConfiguration" factoryName="Maven">
     <MavenSettings>
       <option name="myGeneralSettings">
         <MavenGeneralSettings>
@@ -29,10 +29,11 @@
           </option>
           <option name="goals">
             <list>
-              <option value="dependency:resolve" />
               <option value="clean" />
-              <option value="compile" />
               <option value="package" />
+              <option value="-pl" />
+              <option value="pw-hello-world" />
+              <option value="-am" />
             </list>
           </option>
           <option name="pomFileName" />
