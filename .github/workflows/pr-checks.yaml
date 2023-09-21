@@ -37,3 +37,4 @@ jobs:
         with:
           reporter: github-pr-check
           level: info
+          checkstyle_config: checkstyle.xml
