@@ -51,3 +51,13 @@ For example, to run the `pw-hello-world` module, run:
 ```shell
 java -jar pw-hello-world/target/pw-hello-world-1.0.0-SNAPSHOT.jar
 ```
+
+## Writing modules
+
+Each practical work done through the course should be implemented as a module in this repository.
+The `pom.xml` should inherit from `dai-parent`, which includes all the ground work for getting a runnable module easily.
+
+As a basic rule, each module should be tested through some unit tests, using JUnit.
+
+The code is checked using Checkstyle when opening a pull request, you can install the Checkstyle IntelliJ plugin to
+get inlined feedback on your code inside the editor. The configuration file is located at the root of the repository.
