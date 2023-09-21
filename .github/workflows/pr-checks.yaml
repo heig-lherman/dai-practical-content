@@ -35,5 +35,5 @@ jobs:
 
       - uses: dbelyaev/action-checkstyle@master
         with:
-          reporter: github-pr-review
+          reporter: github-pr-check
           level: info
