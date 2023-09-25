@@ -18,5 +18,6 @@
         <!-- utils -->
         <!-- modules -->
         <module>pw-hello-world</module>
+        <module>pw-cli-base64</module>
    </modules>
 </project>
