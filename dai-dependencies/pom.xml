@@ -27,7 +27,6 @@
         <!-- Plugins -->
         <maven-assembly-plugin.version>3.6.0</maven-assembly-plugin.version>
         <maven-surefire-plugin.version>3.1.2</maven-surefire-plugin.version>
-        <maven-failsafe-plugin.version>3.1.2</maven-failsafe-plugin.version>
     </properties>
 
     <dependencyManagement>
@@ -79,11 +78,7 @@
             <plugins>
                 <plugin>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.1.2</version>
-                </plugin>
-                <plugin>
-                    <artifactId>maven-failsafe-plugin</artifactId>
-                    <version>3.1.2</version>
+                    <version>${maven-surefire-plugin.version}</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>

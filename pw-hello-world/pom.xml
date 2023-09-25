@@ -17,4 +17,12 @@
     <properties>
         <manifest.main-class>ch.lutonite.heig.dai.helloworld.Main</manifest.main-class>
     </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>

@@ -59,36 +59,33 @@
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
             </plugin>
-            <plugin>
-                <artifactId>maven-failsafe-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <artifactId>maven-assembly-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>make-assembly</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>single</goal>
-                        </goals>
-                        <configuration>
-                            <archive>
-                                <manifest>
-                                    <mainClass>${manifest.main-class}</mainClass>
-                                </manifest>
-                            </archive>
-                            <descriptorRefs>
-                                <descriptorRef>jar-with-dependencies</descriptorRef>
-                            </descriptorRefs>
-                            <appendAssemblyId>false</appendAssemblyId>
-                        </configuration>
-                    </execution>
-                </executions>
-                <configuration>
-                    <skipAssembly>true</skipAssembly>
-                </configuration>
-                <inherited>false</inherited>
-            </plugin>
         </plugins>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-assembly-plugin</artifactId>
+                    <executions>
+                        <execution>
+                            <id>make-assembly</id>
+                            <phase>package</phase>
+                            <goals>
+                                <goal>single</goal>
+                            </goals>
+                            <configuration>
+                                <archive>
+                                    <manifest>
+                                        <mainClass>${manifest.main-class}</mainClass>
+                                    </manifest>
+                                </archive>
+                                <descriptorRefs>
+                                    <descriptorRef>jar-with-dependencies</descriptorRef>
+                                </descriptorRefs>
+                                <appendAssemblyId>false</appendAssemblyId>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </pluginManagement>
     </build>
 </project>
