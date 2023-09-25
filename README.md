@@ -1,6 +1,7 @@
 # HEIG-VD DAI 2023/24 - Practical Works by @lutonite
 
-This is the repository for the practical works done as part of the DAI (Développement d'Applications Internet) course at HEIG-VD.
+This is the repository for the practical works done as part of the DAI (Développement d'Applications Internet) course at
+HEIG-VD.
 
 ## Modules
 
@@ -9,6 +10,7 @@ This is the repository for the practical works done as part of the DAI (Dévelop
 | `dai-dependencies` |                                                                              Common module that regroups dependencies for the monorepo in a central place                                                                               |
 |    `dai-parent`    |                                                                   Parent module for all practical work modules that sets up the basic utilities and packaging options                                                                   |
 |  `pw-hello-world`  | The first practical module implementend as part of [Chapter 4](https://github.com/heig-vd-dai-course/heig-vd-dai-course/blob/0522343ed4a65f744b3bb421c546d4d8ce685cb7/04-java-intellij-idea-and-maven/COURSE_MATERIAL.md) of the course |
+|  `pw-cli-base64`   |                                                                  The module for the first practical work, where it is requested to build a CLI for basic file edition                                                                   |
 
 ## How to run the practical works
 
