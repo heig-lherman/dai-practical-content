@@ -27,7 +27,7 @@ import picocli.CommandLine.HelpCommand;
                 UppercaseCommand.class,
         }
 )
-public class IoProcessing implements Runnable {
+public class IoProcessingCli implements Runnable {
 
     /**
      * Print basic usage information when the user doesn't use
@@ -44,7 +44,7 @@ public class IoProcessing implements Runnable {
      * @param args arguments that will be parsed by picocli
      */
     public static void main(String[] args) {
-        int exitCode = new CommandLine(new IoProcessing()).execute(args);
+        int exitCode = new CommandLine(new IoProcessingCli()).execute(args);
         System.exit(exitCode);
     }
 }
