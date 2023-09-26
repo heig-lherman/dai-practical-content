@@ -19,6 +19,6 @@
         <!-- modules -->
         <module>pw-hello-world</module>
         <module>pw-io-benchmark</module>
-        <module>pw-cli-base64</module>
+        <module>pw-cli-ioprocessing</module>
    </modules>
 </project>
