@@ -41,7 +41,7 @@ For testing, a couple of files are given in `src/test/resources/test-files`.
 For example, the copy operation can be done that way (from the current directory):
 
 ```shell
-java -jar pw-cli-ioprocessing/target/pw-cli-ioprocessing-1.0.0-SNAPSHOT.jar copy \
+java -jar target/pw-cli-ioprocessing-1.0.0-SNAPSHOT.jar copy \
     -i src/test/resources/test-files/utf8.txt \
     -o target/copy.txt
 ```
