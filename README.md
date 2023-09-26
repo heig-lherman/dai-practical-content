@@ -11,7 +11,6 @@ HEIG-VD.
 |     `dai-parent`      |   Parent module for all practical work modules that sets up the basic utilities and packaging options   |
 |   `pw-hello-world`    |               The first practical module implementend as part of Chapter 4 of the course                |
 |   `pw-io-benchmark`   |     Practical content from Chapter 5 of the course, where we had to benchmark different IO classes      |
-| `pw-cli-ioprocessing` | The module for the first practical work, where it is requested to build a CLI for basic file processing |
 
 ## How to run the practical works
 
