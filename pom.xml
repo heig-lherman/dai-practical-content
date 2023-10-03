@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.lutonite.heigvd.dai</groupId>
-    <artifactId>practical-work</artifactId>
+    <artifactId>practical-content</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -15,10 +15,8 @@
         <!-- basis -->
         <module>dai-dependencies</module>
         <module>dai-parent</module>
-        <!-- utils -->
         <!-- modules -->
-        <module>pw-hello-world</module>
-        <module>pw-io-benchmark</module>
-        <module>pw-cli-ioprocessing</module>
+        <module>pc-hello-world</module>
+        <module>pc-io-benchmark</module>
    </modules>
 </project>
